@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.json
+!output.json
+debug_raw_output.json
+tests/

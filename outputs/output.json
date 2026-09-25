@@ -1,0 +1,73 @@
+{
+  "document_title": "Roland Berger AI Lab Take-Home Assignment: Strategy Document Analysis Agent",
+  "document_type": "Other",
+  "executive_summary": "This document outlines a technical take-home assignment for the Roland Berger AI Lab. The objective is to develop a generative AI agent capable of parsing complex strategy-related documents (PDF/DOCX) and producing a structured, consultant-style assessment in JSON format. The solution must demonstrate proficiency in handling both textual and visual content, such as charts and tables, while maintaining high standards for accuracy, evidence-based reasoning, and error reporting.",
+  "strategic_objective": "To build a functional AI agent that automates the extraction and structured analysis of business strategy documents, specifically focusing on handling visual data and maintaining rigorous output standards.",
+  "key_findings": [
+    {
+      "insight": "The solution must be able to process various document types including corporate strategy, market-entry studies, business plans, transformation roadmaps, and market research reports.",
+      "page_numbers": [
+        1
+      ],
+      "confidence": "High",
+      "evidence_explanation": "Explicitly stated in the 'Use Case' section on page 1."
+    },
+    {
+      "insight": "The agent is required to handle complex visual elements such as market-sizing charts, financial tables, competitor matrices, and transformation roadmaps.",
+      "page_numbers": [
+        2
+      ],
+      "confidence": "High",
+      "evidence_explanation": "Listed under the 'Visual Content Challenge' section on page 2."
+    }
+  ],
+  "main_recommendations": [
+    {
+      "insight": "The solution must clearly communicate errors, uncertainty, or unsupported content to the user.",
+      "page_numbers": [
+        1
+      ],
+      "confidence": "High",
+      "evidence_explanation": "Listed as functional requirement #8 on page 1."
+    },
+    {
+      "insight": "The developer must document constraints encountered during the development process, particularly regarding AI model limitations.",
+      "page_numbers": [
+        2
+      ],
+      "confidence": "High",
+      "evidence_explanation": "Stated in the 'Helpful Resources and Guidelines' section on page 2."
+    }
+  ],
+  "important_business_metrics": [],
+  "assumptions": [
+    {
+      "insight": "The candidate is expected to research unfamiliar topics and make reasonable technical decisions.",
+      "page_numbers": [
+        1
+      ],
+      "confidence": "High",
+      "evidence_explanation": "Stated in the 'Background' section on page 1."
+    }
+  ],
+  "risks_or_concerns": [
+    {
+      "insight": "Free AI models may have limited availability, lower rate limits, or varying support for vision and structured output.",
+      "page_numbers": [
+        2
+      ],
+      "confidence": "High",
+      "evidence_explanation": "Explicitly noted as a potential constraint in the 'Helpful Resources and Guidelines' section on page 2."
+    }
+  ],
+  "missing_or_unclear_information": [],
+  "recommended_follow_up_questions": [
+    "What is the preferred programming language or tech stack for the implementation?",
+    "Are there specific target document formats or layouts that should be prioritized for testing?",
+    "What is the expected latency for the agent's response?"
+  ],
+  "visual_elements_processed": [
+    "Roland Berger logo on page 1",
+    "Roland Berger logo on page 2"
+  ]
+}
